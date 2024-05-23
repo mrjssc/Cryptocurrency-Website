@@ -17,7 +17,7 @@ Market Info: Discover and manage cryptocurrencies like Bitcoin, Ethereum, and Te
 Footer: 
 Elevate your cryptocurrency trading experience
 
-Websites:
+Websites (Inspired and got information from):
 https://cex.io/
 https://www.kraken.com/
 https://www.coinbase.com/?__cf_chl_f_tk=HRl37LJAiOveeRpndU1MEiOfthzdvX_IkiJ.dxDIrF0-1716039660-0.0.1.1-1578
