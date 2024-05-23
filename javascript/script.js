@@ -121,7 +121,7 @@ scrollTriggerAnimation(".float-banner", [".float-banner"]);
 
 scrollTriggerAnimation(".float-banner", [".float-banner .float-banner-btn"]);
 
-scrollTriggerAnimation(".feedback .container", [".feedback .label", ".feedback .heading", ".feedback .paragraph"]);
+scrollTriggerAnimation(".recognition .container", [".recognition .label", ".recognition .heading", ".recognition .paragraph"]);
 
 scrollTriggerAnimation(".article", [".article .label", ".article .heading"]);
 
@@ -143,9 +143,7 @@ galleryAnimation(".assets .crypto-ex ul", [".crypto-ex ul li"]);
 
 galleryAnimation(".assets .gallery", [".assets .dashboard"]);
 
-galleryAnimation(".featured .gallery", [".featured .gallery .box1", ".featured .gallery .box2", ".featured .gallery .box3", ".featured .gallery .box4"]);
-
-galleryAnimation(".feedback .voices", [".feedback .voices .box1", ".feedback .voices .box2", ".feedback .voices .box3", ".feedback .voices .box4", ".feedback .voices .box5", ".feedback .voices .box6"]);
+galleryAnimation(".recognition .voices", [".recognition .voices .box1", ".recognition .voices .box2", ".recognition .voices .box3", ".recognition .voices .box4", ".recognition .voices .box5", ".recognition .voices .box6"]);
 
 
 const floatBanner = document.querySelector(".float-banner img");

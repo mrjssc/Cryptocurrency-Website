@@ -837,8 +837,8 @@ th, td {
 }
 
 .staking .staking-section h2 {
-	color: #112a34;
-	font-size: 32px;
+    color: #112a34;
+    font-size: 32px;
     text-align: left;
     margin-left: 20px;
     margin-top: 7%;
@@ -847,8 +847,8 @@ th, td {
 }
 
 .staking .savings-section h2 {
-	color: #112a34;
-	font-size: 32px;
+    color: #112a34;
+    font-size: 32px;
     text-align: left;
     margin-left: 20px;
     margin-top: 7%;
@@ -917,7 +917,7 @@ th, td {
     text-decoration: none;
     
 }
-.button-container button {
+.button-container a {
     display: flex;
     justify-content: center;
     align-items: bottom;
@@ -935,7 +935,7 @@ th, td {
     text-decoration: none;
 
 }
-.button-container button:hover {
+.button-container a:hover {
     background-color: #02636e;
     font-weight: bold;
     text-decoration: none;
@@ -1144,12 +1144,13 @@ th, td {
     text-decoration: underline;
 }
 
-.article .container .latest-article h3 {
+.article .container .latest-article a {
+    color: black;
     font-size: 1.4rem;
     font-weight: 600;
 }
 
-.article .container .latest-article h3:hover {
+.article .container .latest-article a:hover {
     cursor: pointer;
     color: var(--green-color)
 }
@@ -1174,12 +1175,13 @@ th, td {
     border-radius: .5rem;
 }
 
-.article .container .more-article .text h3 {
+.article .container .more-article .text a {
+    color: black;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
-.article .container .more-article .text h3:hover {
+.article .container .more-article .text a:hover {
     cursor: pointer;
     color: var(--green-color)
 }
@@ -1206,9 +1208,9 @@ th, td {
 
 /* article section ends here  */
 
-/* feedback section starts here  */
+/* recognition section starts here  */
 
-.feedback {
+.recognition {
     background-position: center;
     background-size: cover;
     margin-top: 4rem;
@@ -1216,12 +1218,12 @@ th, td {
     padding-bottom: 5rem;
 }
 
-.feedback .container {
+.recognition .container {
     display: flex;
     flex-direction: column;
 }
 
-.feedback .container p {
+.recognition .container p {
     justify-content: left;
     margin-top: 4rem;
     padding: 0 1rem;
@@ -1231,7 +1233,7 @@ th, td {
     color: black;
 }
 
-.feedback .voices {
+.recognition .voices {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1239,7 +1241,7 @@ th, td {
     margin-top: 3rem;
 }
 
-.feedback .voices .voice {
+.recognition .voices .voice {
     flex: 1 0 320px;
     background: var(--white-color);
     padding: 2rem;
@@ -1247,59 +1249,59 @@ th, td {
     box-shadow: 0 3px 3px rgb(210, 206, 206);
 }
 
-.feedback .voices .voice .profile {
+.recognition .voices .voice .profile {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.feedback .voices .voice .profile img {
+.recognition .voices .voice .profile img {
     width: 100%px;
     height: 50px;
     object-fit: cover;
     object-position: center;
 }
 
-.feedback .voices .voice .profile .detail {
+.recognition .voices .voice .profile .detail {
     margin-left: 1rem;
 }
 
-.feedback .voices .voice .profile .detail li {
+.recognition .voices .voice .profile .detail li {
     list-style: none;
 }
 
-.feedback .voices .voice .profile .detail li:first-child {
+.recognition .voices .voice .profile .detail li:first-child {
     font-size: 2.5rem;
     color: #000;
     font-weight: 600;
 }
 
-.feedback .voices .voice .info-voice {
+.recognition .voices .voice .info-voice {
     margin-top: 1rem;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.feedback .voices .voice .extra {
+.recognition .voices .voice .extra {
     margin-top: 1rem;
     text-align: center;
     font-size: 1rem;
     color: gray;
 }
 
-.feedback .container .label,
-.feedback .container .heading,
-.feedback .container .paragraph {
+.recognition .container .label,
+.recognition .container .heading,
+.recognition .container .paragraph {
     transform: translate(0, 10px);
     opacity: 0;
 }
 
-.feedback .voices .voice {
+.recognition .voices .voice {
     transform: translate(0, 100px);
     opacity: 0;
 }
-/* feedback section ends here  */
+/* recognition section ends here  */
 
 
 /* footer section starts here  */
