@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>safebit</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- home section starts here  -->
+
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <h3>safebit</h3>
+                </div>
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#">Buy Crypto</a></li>
+                        <li><a href="#">Market</a></li>
+                        <li><a href="#">Trade</a></li>
+                        <li><a href="#">Staking</a></li>
+                        <li><a href="#">Articles</a></li>
+                        <li><a href="#">Download</a></li>
+                    </ul>
+                </div>
+                <div class="signin-signup">
+                    <a href="php/index.php#signIn">Sign in</a>
+                    <a href="php/index.php#signup">Sign up</a>
+                </div>
+            </nav>
+           
+            <div class="content">
+                <h1>Trust in Every Transaction</h1>
+                <h3>Nurture your investment journey with a secure <br> and transparent trading platform.</h3>
+                <p>Email address</p>
+
+                <div class="email">
+                    <input type="text" placeholder="abcd@gmail.com">
+                </div>
+                <div class="signup-btn">
+                    <a href="php/index.php#signup">Sign up</a>
+                </div>
+                <div class="pic1">
+                    <img src="images/Home.png">
+                </div>
+                <div class="pic2">
+                    <img src="images/Market.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- home section ends here  -->
+
+<!-- assets section starts here  -->
+
+    <section class="assets">
+        <div class="container">
+            <div class="heading-box">
+                <h3 class="heading">Safebit is the crypto exchange for everyone</h3>
+            </div>
+            <div class="content-box">
+                <ul>
+                    <li><p class="content-1">12M+</p></li>
+                    <li><p class="content-2">190+</p></li>
+                    <li><p class="content-3">$210B+</p></li>
+                </ul>
+            </div>
+            <div class="content-box-1">
+                <ul>
+                    <div class="left-items">
+                        <li><p class="content-4">Clients</p></li>
+                        <li><p class="content-5">Countries supported</p></li>
+                    </div>
+                    <div class="right-items">
+                        <li><p class="content-6">Quarterly trading volume</p></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="gallery">
+                <div class="dashboard">
+                    <img src="images/Dashboard.png">
+                </div>
+            </div>
+            <div class="content-info">
+                <p class="crypto-exchange">Crypto Exchange</p>
+                <p class="buy-crypto-info">Buy crypto in minutes</p>
+            </div>
+            <div class="number-instruction">
+                <ol>
+                    <li data-number="1"><p>Create your free Safebit account</p></li>
+                    <li data-number="2"><p>Connect your funding method</p></li>
+                    <li data-number="3"><p>Buy and sell 200+ cryptocurrencies</p></li>
+                </ol>
+            </div>
+            <div class="buy-crypto">
+                <a href="#" class="buy-crypto-button">Buy crypto</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+<!-- assets section ends here  -->
+
+<!-- benefits section starts here  -->
+
+    <section class="benefits">
+        <div class="header-benefits">
+            <p>Why Safebit?</p>
+        </div>
+        <div class="container">
+            <div class="invest">
+                <img src="images/investment.png" alt="">
+                <div class="content">
+                    <h4>Accessible Investing</h4>
+                    <p>Users can start trading with as little as $5, empowering them to begin their investment journey with a nominal amount and gradually expand their portfolio over time.</p>
+                </div>
+            </div>
+            <div class="security">
+                <img src="images/encrypted.png" alt="">
+                <div class="content">
+                    <h4>Secured Transactions</h4>
+                    <p>Users can rely on the platform's robust security measures and transparent processes to safeguard their funds and minimize the likelihood of financial loss due to fraud or misconduct. </p>
+                </div>
+            </div>
+            <div class="customer">
+                <img src="images/customer-service.png" alt="">
+                <div class="content">
+                    <h4>Amazing Customer Support</h4>
+                    <p>A team of knowledgeable and responsive support representatives are available around the clock to prompt any inquiries, technical issues, or concerns users may encounter. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- benefits section ends here  -->
+
+<!-- market section starts here  -->
+
+    <section class="coin-market">
+        <div class="coin-market-heading">
+            <p>Crypto Market Today</p>
+        </div>
+        <div class="view-coins">
+            <a href="https://www.coingecko.com/">
+                <p>View all 200+ coins &nbsp;<i class="fa fa-arrow-right"></i></p>
+            </a>
+        </div>
+        <div class="hot-list-data" id="hot-list">
+            <p><span>|</span>&nbsp;Hot List</p>
+            <table>
+                <tbody id="hot-list-table">
+                    <!-- Data -->
+                </tbody>
+            </table>
+        </div>
+        <div class="new-coins-data" id="new-coins">
+            <p><span>|</span>&nbsp;New Coins</p>
+            <table>
+                <tbody id="new-coins-table">
+                    <!-- Data -->
+                </tbody>
+            </table>
+        </div>
+        <div class="top-gainers-data" id="top-gainers">
+            <p><span>|</span>&nbsp;Top Gainers</p>
+            <table>
+                <tbody id="top-gainers-table">
+                    <!-- Data -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+<!-- market section ends here  -->
+
+<!-- banner starts here  -->
+
+    
+    <div class="float-banner">
+        <img src="images/floating banner.png">
+        <div class="float-banner-btn">
+            <a href="php/index.php#signup">START TRADING</a>
+        </div>
+    </div>
+
+<!-- banner ends here  -->
+
+<!-- staking section starts here  -->
+     
+    <section class="staking">
+        <div class="staking-heading">
+            <p>Earn crypto flexibly with Safebit</p>
+        </div>
+        <div class="learn-more">
+            <a href="https://earn.cex.io/">
+                <p>Learn More ></p>
+            </a>
+        </div>
+        <div class="staking-container">
+            <div class="rounded-square">
+                <div class="staking-section">
+                    <h2>Staking</h2>
+                    <div id="staking-calculator"></div>
+                </div>
+            </div>
+            <div class="rounded-square">
+                <div class="savings-section">
+                    <h2>Savings</h2>
+                    <div class="row">
+                        <div class="column">
+                            <img src="images/tether.png" class="top-img" alt="Tether">
+                            <img src="images/ethereum.png" class="top-img" alt="Ethereum">
+                            <img src="images/usd.png" class="bottom-img" alt="USD">
+                            <img src="images/bitcoin.png" class="bottom-img" alt="Bitcoin">
+                        </div>
+                    </div>                    
+                        <div class="button-container">
+                            <button onclick="window.location.href='https://coinrabbit.io/earn/';"> Start saving</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- staking section ends here  -->
+
+    <!-- article section starts here  -->
+    <section class="article">
+        <h2 class="heading">Articles</h2>
+        <div class="container">
+            <div class="latest-article">
+                <img src="images/main article.jpg" alt="">
+                <h3>What’s Happening In Crypto Today? Daily Crypto News Digest</h3>
+                <p>Get your daily, bite-sized digest of blockchain and crypto news today – investigating the stories flying under the radar of today’s news.</p>
+            </div>
+            <div class="more-article">
+                <div class="box box1">
+                    <div class="image">
+                        <img src="images/article 1.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>USDC: The digital dollar for the global crypto economy</h3>
+                        <li>Safebit believes crypto will be part of the solution for creating an open financial system that is both more efficient and more equitable. </li>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="image">
+                        <img src="images/article 2.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Can crypto really replace your bank account?</h3>
+                        <li>If you're a big enough fan of crypto, you've probably heard the phrase "be your own bank" or the term "bankless" the idea being that crypto can offer more control over your financial future than traditional finance.</li>
+                    </div>
+                </div>
+                <div class="box box3">
+                    <div class="image">
+                        <img src="images/article 3.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>When is the best time to invest in crypto?</h3>
+                        <li>Cryptocurrencies Uke Bitcoin can experience daily (or even hourly) price volatility. As with any kind of investment, volatility may cause uncertainty, fear of missing out, or fear of participating at all.</li>
+                    </div>
+                </div>
+                <div class="box box4">
+                    <div class="image">
+                        <img src="images/article 4.jpg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3>Japanese E-commerce Giant Mercari Launches Ethereum Trading</h3>
+                        <li>The Japanese e-commerce giant Mercari has taken another step into the crypto sphere by launching Ethereum (ETH) trading services on its app.</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- article section ends here  -->
+
+    <!-- feedback section starts here  -->
+    <section class="feedback">
+        <div class="container">
+            <p class="heading">Our products received recognition</p>
+        </div>
+        <div class="voices">
+            <div class="voice box1">
+                <div class="profile">
+                    <img src="images/ccdata.jpg" alt="">
+                </div>
+                <p class="info-voice">“A” rating</p>
+                <p class="extra">CCData Exchange Benchmark, 2024</p>
+            </div>
+            <div class="voice box2">
+                <div class="profile">
+                    <img src="images/investopedia.svg" alt="">
+                </div>
+                <p class="info-voice">Rank 4.8 / 5.0</p>
+                <p class="extra">2023 - 2024</p>
+            </div>
+            <div class="voice box3">
+                <div class="profile">
+                    <img src="images/business insider.png" alt="">
+                </div>
+                <p class="info-voice">Best Cryptocurrency Exchanges</p>
+                <p class="extra">2024</p>
+            </div>
+            <div class="voice box4">
+                <div class="profile">
+                    <img src="images/kaiko.png" alt="">
+                </div>
+                <p class="info-voice">Ranked Top 10</p>
+                <p class="extra">Global Crypto Exchange, 2023</p>
+            </div>
+            <div class="voice box5">
+                <div class="profile">
+                    <img src="images/forbes.svg" alt="">
+                </div>
+                <p class="info-voice">In Top 10 Best</p>
+                <p class="extra">Global Crypto Exchange, 2023</p>
+            </div>
+        </div>
+    </section>
+    <!-- feedback section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="detail">
+                    <h3>Safebit</h3>
+                    <p>Elevate your cryptocurrency trading experience.</p>
+                    <h5>Get in Touch</h5>
+                    <a href="#">safebit@gmail.com</a>
+                    <div class="social">
+                        <a href="#"><i class="fa fa-linkedin-square"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    </div>
+                </div>
+                <div class="about-us">
+                    <h4>About</h4>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Partnerships</a></li>
+                </div>
+                <div class="about-us">
+                    <h4>Individuals</h4>
+                    <li><a href="#">Buy & Sell</a></li>
+                    <li><a href="#">Earn Free Crypto</a></li>
+                    <li><a href="#">Wallet</a></li>
+                    <li><a href="#">Staking Rewards</a></li>
+                    <li><a href="#">NFT</a></li>
+                    <li><a href="#">Card</a></li>
+                </div>
+                <div class="about-us">
+                    <h4>Help</h4>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Create Account</a></li>
+                    <li><a href="#">ID Verification</a></li>
+                    <li><a href="#">Account Information</a></li>
+                    <li><a href="#">Payment Method</a></li>
+                    <li><a href="#">Supported Crypto</a></li>
+                    <li><a href="#">Status</a></li>
+                </div>
+                <div class="about-us">
+                    <h4>Resources</h4>
+                    <li><a href="#">Newsletter</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Gallery</li>
+                    <li><a href="#">offers</a></li>
+                    <li><a href="#">Press</a></li>
+                </div>
+            </div>
+            <div class="copyright">
+                <div>
+                    &copy; 2024 - Safebit
+                </div>
+                <div>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/crypto-script.js"></script>
+    <script src="javascript/staking-script.js"></script>
+    <script src="javascript/php-script.js"></script>
+</body>
+</html>
